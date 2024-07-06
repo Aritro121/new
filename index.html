@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="output.css">
+    <title>Form</title>
+</head>
+<body class="bg-orange-300 flex justify-center items-center h-screen text-white">
+    <form action="" class="bg-slate-800 border-2 border-blue-400 rounded-lg ">
+        <h1 class="flex justify-center text-5xl font-semibold mx-20 my-5 ">To Do List</h1>
+        <div class="flex justify-center mt-4">
+            <input type="text" class="size-[50%] rounded p-1.5 text-black mr-2">
+        <button type="button" class=" flex justify-center size-[20%] bg-blue-600 p-1 rounded text-black font-semibold">Add</button>
+        </div>
+        
+        <h4 class="flex justify-center text-3xl font-semibold mb-4">Task List</h4>
+        <div class="mx-2 space-y-3">
+            <!-- first part -->
+            <div class="flex items-center justify-between p-1 border rounded-md">
+                <div>
+                    <input type="checkbox" class="mx-2"> <span>Wash dishes</span>
+                </div>
+                <div class="flex mx-2 space-x-2">
+                    <button class="flex text-red-500">Delete</button>
+                    <button class="text-red-500">Edit</button>
+                </div>
+            </div>
+
+                <!-- secend part -->
+                <div class="flex items-center justify-between p-1 border rounded-md">
+                    <div>
+                        <input type="checkbox" class="mx-2"> <del class="text-gray-400"><span>edit resume</span></del>
+                    </div>
+                    <div class="flex mx-2 space-x-2">
+                        <button class="flex text-red-500">Delete</button>
+                        <button class="text-red-500">Edit</button>
+                    </div>
+                </div>
+
+                <!-- Last part -->
+                <div class="flex items-center justify-between p-1 border rounded-md">
+                    <div>
+                        <input type="checkbox" class="mx-2"> <span>finish codedex course</span>
+                    </div>
+                    <div class="flex mx-2 space-x-2">
+                        <button class="flex text-red-500">Delete</button>
+                        <button class="text-red-500">Edit</button>
+                    </div>
+                </div>
+        </div>
+        <hr class="mt-4 mb-2 mx-2 border-blue-500">
+        <h2 class="flex justify-center font-medium">Completed:1 | Uncompleted:2</h2>
+        <div class="my-3"></div>
+    </form>
+</body>
+</html>
